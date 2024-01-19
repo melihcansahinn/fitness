@@ -90,7 +90,7 @@ nav ul>li>a:hover {
 }
 
 .gymPhotos img:hover {
-    scale: 1.1;
+    scale: 1.05;
     transition: .5s ease-in-out;
 }
 
@@ -98,4 +98,39 @@ nav ul>li>a:hover {
     object-fit: contain;
     width: auto;
     height: 350px;
+}
+
+h2 span {
+    color: #54E02D;
+}
+
+.newsLink {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    transition: .5s ease-in-out;
+    box-shadow: 0 0 20px black;
+}
+
+.newsLink img {
+    transition: .5s ease-in-out;
+}
+
+.newsLink:hover {
+    border-radius: 10%;
+    transform: rotate(-2deg);
+    box-shadow: 0 0 20px #555;
+}
+
+.newsLink:hover + p {
+    text-shadow: 0 0 2px #555;
+}
+
+.newsLink + p:hover {
+    text-shadow: 0 0 2px #555;
+}
+
+.newsLink:hover img {
+    scale: 1.05;
+    height: 100%;
 }
