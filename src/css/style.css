@@ -157,6 +157,14 @@ h2 span {
     box-shadow: 0 0 10px white;
 }
 
+.form-control:-webkit-autofill,
+.form-control:-webkit-autofill:hover, 
+.form-control:-webkit-autofill:focus, 
+.form-control:-webkit-autofill:active{
+    -webkit-box-shadow: 0 0 0 30px #222 inset !important;
+    -webkit-text-fill-color: rgb(214, 214, 214);
+}
+
 .form-label {
     color: white;
 }
