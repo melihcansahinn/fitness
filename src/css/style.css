@@ -244,3 +244,32 @@ h2 span {
 .faq a:hover {
     color: #aaa;
 }
+
+
+@media screen and (max-width: 768px) {
+    .img-main {
+        width: 100%;
+        height: 150px;
+        object-fit:cover;
+        object-position: center;
+    }
+
+    .img-main-container {
+        min-width: 100% !important;
+        width: 100% !important;
+        padding: 0 !important;
+    }
+
+    .gymPhotos img {
+        width: 150px;
+    }
+    
+}
+
+@media screen and (max-width: 576px) {
+
+    .gymPhotos img {
+        width: 100%;
+    }
+    
+}
