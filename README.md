@@ -9,12 +9,13 @@
 **Includes;**
 
 + Home Page
++ Login Page
 
 **Will be added;**
 
 - Programs
 
-- Login, Register
+- Register
 
 - Profile
 
