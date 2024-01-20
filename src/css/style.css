@@ -1,3 +1,5 @@
+/* GLOBAL */
+
 nav ul>li {
     display: flex;
     justify-content: center;
@@ -84,6 +86,14 @@ nav ul>li>a:hover {
     transform: rotate(0deg);
 }
 
+.text-green {
+    color: #54E02D !important;
+}
+
+/* GLOBAL */
+
+/* INDEX PAGE */
+
 .gymPhotos img {
     scale: 1;
     transition: .3s ease-in-out;
@@ -133,4 +143,96 @@ h2 span {
 .newsLink:hover img {
     scale: 1.05;
     height: 100%;
+}
+/* INDEX PAGE */
+
+/* LOGİN PAGE */
+.loginBody {
+    background-color: #555;
+}
+
+.form-control:focus {
+    background-color: #111;
+    border-color: #555 !important;
+    box-shadow: 0 0 10px white;
+}
+
+.form-label {
+    color: white;
+}
+
+.form-floating>.form-control:focus~label {
+    color: #54E02D;
+}
+
+.form-floating>.form-control:focus~label::after {
+    background-color: transparent !important;
+}
+
+.form-floating>.form-control:not(:placeholder-shown)~label {
+    color: #54E02D;
+}
+
+.form-floating>.form-control:not(:placeholder-shown)~label::after {
+    background-color: transparent !important;
+}
+
+.form-checkbox {
+    color: white;
+}
+
+.form-checkbox:focus {
+    box-shadow: 0 0 2px white;
+    border-color: #54E02D;
+}
+
+.form-checkbox:checked {
+    border-color: #54E02D;
+    background-color: #54E02D;
+}
+
+.form-control {
+    background-color: #111;
+    color: white !important;
+}
+
+.form-button, .form-button-register, .form-button:hover, .form-button-register:hover {
+    font-weight: 600;
+    font-size: 20px;
+}
+
+.form-button-register {
+    background-color: rgb(146, 146, 146);
+    color: white;
+}
+
+.form-button-register:hover {
+    background-color: #444;
+    color: white;
+    box-shadow: 0 0 5px white;
+}
+
+.form-button {
+    background-color: #54E02D;
+    color: white;
+}
+
+.form-button:hover {
+    color: white;
+    background-color: #26860b;
+    box-shadow: 0 0 5px white;
+}
+
+.faq h2 {
+    color: #aaa;
+}
+
+.faq a {
+    font-size: 20px;
+    color: #ddd;
+    text-decoration: none;
+}
+
+.faq a:hover {
+    color: #aaa;
 }
