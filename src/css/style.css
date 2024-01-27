@@ -235,16 +235,39 @@ h2 span {
     color: #aaa;
 }
 
-.faq a {
+.faq .faq-item {
+    background-color: white;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    position: relative;
+}
+
+.faq .faq-item .answer {
+    padding-top: 15px;
+    border-top: 1px solid #54E02D;
+    width: 100%;
+    display: none;
+    font-size: 13px;
+}
+
+.faq .faq-item:hover > i {
+    background-color: #ddd;
+}
+
+.faq .faq-item:hover {
+    background-color: #ddd;
+}
+
+.faq .faq-item:hover > span {
+    color: #111;
+}
+
+.faq span {
     font-size: 20px;
-    color: #ddd;
+    color: #333;
     text-decoration: none;
 }
-
-.faq a:hover {
-    color: #aaa;
-}
-
 
 @media screen and (max-width: 768px) {
     .img-main {
