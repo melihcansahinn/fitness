@@ -10,12 +10,11 @@
 
 + Home Page
 + Login Page
++ Register Page
 
 **Will be added;**
 
 - Programs
-
-- Register
 
 - Profile
 
