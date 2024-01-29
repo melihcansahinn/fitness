@@ -132,11 +132,11 @@ h2 span {
     box-shadow: 0 0 20px #555;
 }
 
-.newsLink:hover + p {
+.newsLink:hover+p {
     text-shadow: 0 0 2px #555;
 }
 
-.newsLink + p:hover {
+.newsLink+p:hover {
     text-shadow: 0 0 2px #555;
 }
 
@@ -144,6 +144,7 @@ h2 span {
     scale: 1.05;
     height: 100%;
 }
+
 /* INDEX PAGE */
 
 /* LOGİN PAGE */
@@ -158,9 +159,9 @@ h2 span {
 }
 
 .form-control:-webkit-autofill,
-.form-control:-webkit-autofill:hover, 
-.form-control:-webkit-autofill:focus, 
-.form-control:-webkit-autofill:active{
+.form-control:-webkit-autofill:hover,
+.form-control:-webkit-autofill:focus,
+.form-control:-webkit-autofill:active {
     -webkit-box-shadow: 0 0 0 30px #222 inset !important;
     -webkit-text-fill-color: rgb(214, 214, 214);
 }
@@ -204,7 +205,10 @@ h2 span {
     color: white !important;
 }
 
-.form-button, .form-button-register, .form-button:hover, .form-button-register:hover {
+.form-button,
+.form-button-register,
+.form-button:hover,
+.form-button-register:hover {
     font-weight: 600;
     font-size: 20px;
 }
@@ -251,7 +255,7 @@ h2 span {
     font-size: 13px;
 }
 
-.faq .faq-item:hover > i {
+.faq .faq-item:hover>i {
     background-color: #ddd;
 }
 
@@ -259,7 +263,7 @@ h2 span {
     background-color: #ddd;
 }
 
-.faq .faq-item:hover > span {
+.faq .faq-item:hover>span {
     color: #111;
 }
 
@@ -269,11 +273,37 @@ h2 span {
     text-decoration: none;
 }
 
+/* PROGRAMS PAGE */
+.programBody {
+    background-color: #555;
+}
+
+.programTitle {
+    text-shadow: 0 0 10px rgba(0, 0, 0, 0.411);
+}
+
+.headerBg {
+    background-color: rgba(170, 170, 170, 0.8);
+}
+
+.headerBg-active {
+    background-color: #54E02D;
+}
+
+.cardBg {
+    background-color: rgba(60, 60, 60, .5);
+    min-height: 400px;
+}
+
+.smallText {
+    color: rgba(255, 255, 255, .6);
+}
+
 @media screen and (max-width: 768px) {
     .img-main {
         width: 100%;
         height: 150px;
-        object-fit:cover;
+        object-fit: cover;
         object-position: center;
     }
 
@@ -286,7 +316,7 @@ h2 span {
     .gymPhotos img {
         width: 150px;
     }
-    
+
 }
 
 @media screen and (max-width: 576px) {
@@ -294,5 +324,5 @@ h2 span {
     .gymPhotos img {
         width: 100%;
     }
-    
+
 }
