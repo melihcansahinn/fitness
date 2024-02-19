@@ -278,11 +278,15 @@ h2 span {
 }
 
 /* PROGRAMS PAGE */
-.programBody {
+.membershipBody {
     background-color: #555;
 }
 
-.programTitle {
+.programBody {
+    background-color: #c9c9c9;
+}
+
+.membershipTitle {
     text-shadow: 0 0 10px rgba(0, 0, 0, 0.411);
 }
 
@@ -297,6 +301,31 @@ h2 span {
 .cardBg {
     background-color: rgba(60, 60, 60, .5);
     min-height: 400px;
+}
+
+.programContainer a {
+    color: rgba(0, 0, 0, 0.7);
+    transition: all .3s ease-in-out;
+}
+
+.programContainer a:hover {
+    color: rgb(255,255,255);
+    background-color: rgb(33,37,41);
+}
+
+.programImg {
+    box-shadow: 0 0 15px rgba(208, 199, 199, 0.7);
+    transition: all .3s ease-in-out;
+    margin: 0;
+    padding: 0;
+}
+
+.programImg img {
+    transition: all .5s ease-in-out;
+}
+
+.programImg:hover img {
+    transform: scale(1.05);
 }
 
 .smallText {
